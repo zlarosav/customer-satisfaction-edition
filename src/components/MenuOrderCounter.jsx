@@ -15,22 +15,22 @@ export default function MenuOrderCounter() {
         <ul>
           <li>
             <button 
-              className={(currentPage === "pageReport" && "buttonSelect")}
+              className={currentPage === "pageReport" && "buttonSelect"}
               onClick={() => setCurrentPage('pageReport')}>Reporte diario</button>
           </li>
           <li>
             <button 
-              className={(currentPage === "pagePreparation" && "buttonSelect")}
+              className={currentPage === "pagePreparation" && "buttonSelect"}
               onClick={() => setCurrentPage('pagePreparation')}>Preparación</button>
           </li>
           <li>
             <button 
-              className={(currentPage === "pageUpgrade" && "buttonSelect")}
+              className={currentPage === "pageUpgrade" && "buttonSelect"}
               onClick={() => setCurrentPage('pageUpgrade')}>Mejoras</button>
           </li>
           <li>
             <button 
-              className={(currentPage === "pageGoal" && "buttonSelect")}
+              className={currentPage === "pageGoal" && "buttonSelect"}
               onClick={() => setCurrentPage('pageGoal')}>Meta</button>
           </li>
         </ul>
