@@ -1,0 +1,100 @@
+.PageReport {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row-top {
+  height: 70%;
+}
+
+.PageReport-left {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PageReport-right {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.PageReport h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.PageReport table {
+  border-collapse: collapse;
+}
+
+.PageReport table td {
+  padding: 6px;
+}
+
+.green-word {
+  color: #52C185
+}
+
+.highlighted-row {
+  background-color: #926B4E;
+  border: 1px solid #926B4E;
+}
+
+.PageReport table td:first-child {
+  text-align: left;
+}
+
+.PageReport table td:last-child {
+  text-align: right;
+}
+
+.PageReport .feedback {
+  text-align: center;
+  background-color: #926B4E;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.PageReport .feedback h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.PageReport .feedback p {
+  margin: 0;
+}
+
+.comment-box {
+  font-size: 16px;
+}
+
+.comment-box li {
+  display: block;
+}
+
+.row-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #512E15;
+  border: 1px solid #512E15;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  padding: 1.5% 10%;
+  cursor: pointer;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.459);
+}

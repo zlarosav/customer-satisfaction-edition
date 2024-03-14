@@ -7,3 +7,9 @@
 body {
   background: rgb(22, 22, 22);
 }
+
+#root {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

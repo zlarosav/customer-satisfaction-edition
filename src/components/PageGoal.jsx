@@ -1,7 +1,7 @@
 export default function PageGoal() {
   return (
-    <div className="PageGoal">
+    <section className="PageGoal">
       PageGoal
-    </div>
+    </section>
   )
 }

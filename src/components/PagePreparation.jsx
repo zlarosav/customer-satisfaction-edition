@@ -1,7 +1,7 @@
 export default function PagePreparation() {
   return (
-    <div className="PagePreparation">
+    <section className="PagePreparation">
       PagePreparation
-    </div>
+    </section>
   )
 }

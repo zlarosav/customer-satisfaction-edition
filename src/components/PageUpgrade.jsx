@@ -1,7 +1,7 @@
 export default function PageUpgrade() {
   return (
-    <div className="PageUpgrade">
+    <section className="PageUpgrade">
       PageUpgrade
-    </div>
+    </section>
   )
 }
