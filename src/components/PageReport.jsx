@@ -3,8 +3,8 @@ import "../css/PageReport.css"
 export default function PageReport({ setCurrentPage }) {
   return (
     <section className="PageReport">
-      <div className="row-top">
-        <div className="PageReport-left">
+      <div className="top-row">
+        <div className="left-column">
           <h1>Reporte de Ayer</h1>
           <table>
             <tbody>
@@ -36,7 +36,7 @@ export default function PageReport({ setCurrentPage }) {
           </table>
         </div>
 
-        <div className="PageReport-right">
+        <div className="right-column">
           <h1>Feedback del Cliente</h1>
           <div className="feedback">
             <h2>Opinión Promedio</h2>
@@ -51,7 +51,7 @@ export default function PageReport({ setCurrentPage }) {
         </div>
       </div>
 
-      <div className="row-bottom">
+      <div className="bottom-row">
         <button className="btn" onClick={() => setCurrentPage("pagePreparation")}>Siguiente</button>
       </div>
     </section>

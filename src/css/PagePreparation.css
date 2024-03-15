@@ -1,0 +1,57 @@
+/* ESTRUCTURA COLUMNAS Y FILAS */
+
+.PagePreparation {
+  display: flex;
+  height: 100vh;
+}
+
+.cuerpo {
+  display: flex;
+}
+
+.PagePreparation .left-column {
+  margin: 5px;
+  flex: 1;
+}
+
+.PagePreparation .right-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.PagePreparation .row-top {
+  flex: 1;
+  margin: 5px;
+}
+
+.PagePreparation .row-bottom {
+  flex: 1;
+  margin: 5px;
+}
+
+/* VASO DE TÉ CON LECHE Y BOBA */
+
+.product-container {
+  position: relative;
+  width: 200px;
+  height: 260px;
+}
+
+.limiter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  transition: height 1s ease;
+}
+
+.glass-img, .limiter img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+

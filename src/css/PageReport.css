@@ -1,14 +1,21 @@
+/* ESTRUCTURA COLUMNAS Y FILAS */
+
 .PageReport {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.row-top {
+.PageReport .top-row {
   height: 70%;
 }
 
-.PageReport-left {
+.PageReport .bottom-row {
+  display: flex;
+  justify-content: center;
+}
+
+.PageReport .left-column {
   width: 50%;
   float: left;
   padding: 20px;
@@ -19,12 +26,14 @@
   align-items: center;
 }
 
-.PageReport-right {
+.PageReport .right-column {
   width: 50%;
   float: left;
   padding: 20px;
   box-sizing: border-box;
 }
+
+/* ESTILOS DE ETIQUETAS GENERALES */
 
 .PageReport h1 {
   font-size: 18px;
@@ -81,11 +90,6 @@
 
 .comment-box li {
   display: block;
-}
-
-.row-bottom {
-  display: flex;
-  justify-content: center;
 }
 
 .btn {

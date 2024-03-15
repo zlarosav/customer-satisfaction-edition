@@ -1,0 +1,26 @@
+.quantifier {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+
+.quantifier input {
+  padding: 8px;
+  border: 2px solid #776758;
+  border-radius: 5px;
+  background-color: #776758;
+  color: white;
+  font-size: 16px;
+  width: 100px;
+  text-align: center;
+}
+
+.quantifier input:focus {
+  outline: none;
+}
+
+.quantifier input::-webkit-inner-spin-button,
+.quantifier input::-webkit-outer-spin-button {
+  margin: 0;
+}
