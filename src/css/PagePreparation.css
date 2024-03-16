@@ -3,45 +3,86 @@
 .PagePreparation {
   display: flex;
   height: 100vh;
+  font-size: 16px;
 }
 
 .cuerpo {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .PagePreparation .left-column {
   margin: 5px;
-  flex: 1;
+  flex: 2;
 }
 
 .PagePreparation .right-column {
   flex: 1;
   display: flex;
+  align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 
 .PagePreparation .row-top {
-  flex: 1;
-  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.PagePreparation .row-top .btn-restock {
+  background-color: #512E15;
+  border: 1px solid #512E15;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  padding: 8% 12%;
+  cursor: pointer;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.459);
+  margin-bottom: 15px;
+}
+
+.PagePreparation .row-top .btn-restock:disabled {
+  background-color: #8A6440;
+  border: 1px solid #8A6440;
+  box-shadow: none;
+  color: #973434;
+  font-weight: 700;
+  cursor: not-allowed; 
 }
 
 .PagePreparation .row-bottom {
-  flex: 1;
-  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.PagePreparation .row-bottom .btn-startDay {
+  background-color: #512E15;
+  border: 1px solid #512E15;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  width: 14rem;
+  height: 9rem;
+  cursor: pointer;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.459);
 }
 
 /* VASO DE TÉ CON LECHE Y BOBA */
 
 .product-container {
   position: relative;
-  width: 200px;
-  height: 260px;
+  height: 80%;
+  max-width: 45%;
+  flex: 2;
+  display: flex;
+  align-items: flex-end;
 }
 
 .limiter {
   position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
   overflow: hidden;
   transition: height 1s ease;
@@ -49,9 +90,27 @@
 
 .glass-img, .limiter img {
   position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
   height: auto;
+  max-height: 520px;
+  max-width: 400px;
 }
 
+.limiter img {
+  bottom: 0;
+}
+
+.quantifiers-container {
+  margin: 0 8%;
+}
+
+.cost-profit {
+  margin: 10px 5px;
+  text-align: center;
+}
+
+.currentSupplies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

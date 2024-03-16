@@ -5,6 +5,11 @@
   padding: 5%;
 }
 
+.quantifier label {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
 .quantifier input {
   padding: 8px;
   border: 2px solid #776758;
@@ -14,6 +19,7 @@
   font-size: 16px;
   width: 100px;
   text-align: center;
+  text-indent: 15px;
 }
 
 .quantifier input:focus {
@@ -23,4 +29,15 @@
 .quantifier input::-webkit-inner-spin-button,
 .quantifier input::-webkit-outer-spin-button {
   margin: 0;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-wrapper span {
+  position: absolute;
+  left: 30px;
+  top: 47%;
+  transform: translateY(-50%);
 }
